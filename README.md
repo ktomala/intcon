@@ -1,9 +1,16 @@
+intcon
+======
+
 InteractiveConsole class reimplements raw_input
+
 Copyright (c) 2013 Karol Tomala
 
-Usage:
-  con = InteractiveConsole()
-  print con('> ')
+# Usage:
+
+    con = InteractiveConsole()
+    print con('> ')
+
+# Rationale:
 
 Reimplementing raw_input might seem as a futile and unnecessary attempt, but there is
 one special case where raw_input cannot be used. Since raw_input is a blocking call
